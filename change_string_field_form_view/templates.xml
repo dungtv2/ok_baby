@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="npp_web_interface_templates" name="fixed_header_status templates" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" type="text/css" href="/change_string_field_form_view/static/src/css/style.css" />
+                <script type="text/javascript" src="/change_string_field_form_view/static/src/js/custom.js"></script>
+            </xpath>
+        </template>
+    </data>
+</openerp>

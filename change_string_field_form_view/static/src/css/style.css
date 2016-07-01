@@ -1,0 +1,39 @@
+.ok-hidden{
+    overflow: hidden !important
+}
+.openerp .oe_form_sheet_width {
+    max-width: calc(100% - 27pt);
+}
+.openerp.openerp_webclient_container {
+    overflow: initial !important;
+}
+header{
+    background-color: #ededed;
+    border-bottom: 1px solid #cacaca;
+}
+header button{
+    margin-left: 5px !important;
+    margin-top: 3px !important;
+}
+.oe_form_container.npp_container{
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+}
+.npp_container .oe_form_field_status.oe_form_status{
+    float: right;
+}
+.left{float: left}
+.right{float: right}
+.of_hidden{overflow: hidden !important}
+.of_auto{
+    overflow: auto;
+    height: calc(100% - 31px);
+}
+.openerp .oe_stat_button {
+    width: 150px !important;
+    padding-right: 4px;
+}
